@@ -23,7 +23,7 @@ function readFormData(){
 
 //Insert the data
 function insertNewRecord(data){
-var table = document.getElementById("storeList").getElementsByTagName('tbody')[0];
+var table = document.getElementById('storeList').getElementsByTagName('tbody')[0];
 var newRow = table.insertRow(table.length);
 var cell1 = newRow.insertCell(0);
     cell1.innerHTML = data.productCode;
