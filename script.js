@@ -69,3 +69,4 @@ function resetForm(){
     document.getElementById('qty').value = '';
     document.getElementById('perPrice').value = '';
 }
+
