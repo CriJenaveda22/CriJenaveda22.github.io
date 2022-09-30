@@ -13,7 +13,7 @@ table{
 
 table.list{
     text-align: center;
-    width: 100px;
+    width: 100%;
 }
 
 td{
@@ -21,12 +21,12 @@ td{
     text-align: left;
     padding: 8px 15px;
 }
+
 tr:nth-child(even), table.list thread> tr{
     background-color: rgb(204,200,200);
 
 }
-    
-input[type="text"],input[type="number"]{
+    input[type="text"],input[type="number"]{
     width: 91%;
     padding: 12px 20px;
     margin:8px 0;
@@ -67,7 +67,7 @@ button{
     outline: none;
 }
 
-button.hover{
+button:hover{
     background:#4b99d8;
-    
+
 }
